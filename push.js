@@ -1,7 +1,14 @@
 
-var num = 1.2;
-num = "hello" ; 
-num=[3,"hellsm" , true]
-console.log( num[2]);
-MonirSadat.kheradmand
-Pesaram.ghandeAsalam1397
+'use strict'
+
+var a =5;
+var b =4;
+
+//&&
+// ||
+// !
+if(a==5 && b==6){
+    console.log('hello roocket');
+}else{
+    console.log("it's wrong")
+}
