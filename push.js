@@ -1,12 +1,11 @@
 
 'use strict'
 
-// var arr = [1,2,3,4,5,6]
-// for (let i = 0; i < arr.length; i++) {
-//     const element = arr[i];
-//     console.log(arr[i])
-// }
+var list = [1,2,3,4,5,6,7,8,9];
 
-for(var i=0 ;i<5 ;i++ ){
-    alert(i)
-}
+list.push(6);
+list.push(9);
+console.log(list)
+
+list.pop();
+console.log(list)
