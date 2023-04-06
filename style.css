@@ -2,14 +2,28 @@ body{
     padding :0;
     margin:0;
 }
-#d1{
-    width:200px;
-    height: 200px;
-    background-color: yellow;
-    /* cursor:move; */
+#slides{
+    display: flex;
+    justify-content: center;
 }
-#parent{
-    width:500px;
-    height:500px;
-    background-color: orange;
+#slides img {
+    display: none;
+    width:400px;
+    height: 300px;
+    position: relative;
+   
+}
+#slides .current{
+    display: block;
+    -webkit-animation: a1 10s;
+}
+@-webkit-keyframes a1
+{
+    from{
+        right:-140%;
+    }
+    to{
+        right:145%;
+
+    }
 }
